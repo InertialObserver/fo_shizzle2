@@ -1,7 +1,5 @@
-require('pry')
+
 class String
-
-
   define_method(:fo_shizzle) do
     mo_shizzle_array = []
     shizzle_array = self.split
