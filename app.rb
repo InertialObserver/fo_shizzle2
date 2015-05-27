@@ -7,8 +7,8 @@ also_reload('lib/**/*.rb')
     erb(:index)
   end
 
-  post('/fo_shizzled') do
-    @pre_shizzle = params.fetch('pre_shizzle')
+  get('/fo_shizzled') do
+    @pre_shizzle = params.fetch('pre_shizzle').fo_shizzle()
 
     erb(:fo_shizzled)
   end
