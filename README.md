@@ -1,5 +1,6 @@
-Fo_Shizzle v.2
+#Fo_Shizzle v.2
 
+Epicodus student project:
 This app takes the entered string of words and returns it, subsituting the letter 'z' for the letter 's' except when capitalized or the first letter of a word. 
 
 Contributor(s):
@@ -17,12 +18,8 @@ Usage
 To use the app run
 
 ruby app.rb
-Navigate in your browser to localhost:4567 and enjoy!!
 
-Bug reports
-
-If you discover any bugs, feel free to create an issue on GitHub. Please add as much information as possible to help us fixing the possible bug. We also encourage you to help even more by forking and sending us a pull request.
-
+Navigate in your browser to localhost:4567
 
 License
 
